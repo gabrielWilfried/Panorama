@@ -52,5 +52,6 @@ try:
 
     # Step 7: Save the panorama to a file.
     cv2.imwrite("panorama.jpg", panorama)
+    print("Panorama successfully created and saved as 'panorama.jpg'")
 except Exception as e:
     print("An error occurred:", str(e))
